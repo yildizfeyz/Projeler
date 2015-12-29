@@ -1,0 +1,37 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    tools:context="com.feyzullah.trabzonbelediyesi.trabzonbelediyesi_binayeriyol.Bina_tercih">
+
+
+
+    <com.beardedhen.androidbootstrap.BootstrapButton
+        app:bootstrapBrand="primary"
+        app:bootstrapSize="lg"
+        app:buttonMode="regular"
+        app:showOutline="true"
+        app:roundedCorners="true"
+        android:layout_gravity="center"
+        android:text="Kaydet"
+        android:layout_width="400dp"
+        android:layout_height="150dp"
+        android:id="@+id/Isyeri_kaydetBTN" />
+
+    <com.beardedhen.androidbootstrap.BootstrapButton
+        app:bootstrapBrand="primary"
+        app:bootstrapSize="lg"
+        app:buttonMode="regular"
+        app:showOutline="true"
+        app:roundedCorners="true"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/Isyeri_kaydetBTN"
+        android:layout_gravity="center"
+        android:text="X:41.9999999 Y:44.9999999 | Yenile"
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:id="@+id/Isyeri_locationBTN" />
+
+</RelativeLayout>

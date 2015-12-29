@@ -1,0 +1,121 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.feyzullah.trabzonbelediyesi.trabzonbelediyesi_binayeriyol.Bina_2">
+
+    <ScrollView
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Cadde - Sokak Adı"
+            android:id="@+id/textView3"
+            android:textColor="#FA5"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/caddesokakadi"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_below="@+id/textView3"
+            android:layout_marginTop="30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Cadde - Sokak Kodu"
+            android:id="@+id/textView4"
+            android:textColor="#FA5"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp"
+            android:layout_below="@+id/caddesokakadi"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp" />
+
+        <com.rey.material.widget.CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sokak"
+            android:onClick="onTikla"
+            android:id="@+id/caddesokakkodu1"
+            android:layout_below="@id/textView4"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/textView4"
+            android:layout_toStartOf="@+id/textView4"
+            android:layout_marginRight="55dp"
+            android:layout_marginEnd="55dp" />
+
+        <com.rey.material.widget.CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cadde"
+            android:onClick="onTikla"
+            android:id="@+id/caddesokakkodu2"
+            android:layout_alignBottom="@id/caddesokakkodu1"
+            android:layout_centerHorizontal="true" />
+
+        <com.rey.material.widget.CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bulvar"
+            android:onClick="onTikla"
+            android:id="@+id/caddesokakkodu3"
+            android:layout_centerVertical="true"
+            android:layout_alignBottom="@id/caddesokakkodu1"
+            android:layout_toRightOf="@+id/caddesokakkodu2"
+            android:layout_toEndOf="@+id/caddesokakkodu2"
+            android:layout_marginLeft="53dp"
+            android:layout_marginStart="53dp" />
+
+        <com.rey.material.widget.CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Meydan"
+            android:onClick="onTikla"
+            android:id="@+id/caddesokakkodu4"
+            android:layout_marginTop="47dp"
+            android:layout_below="@+id/caddesokakkodu1"
+            android:layout_alignLeft="@+id/caddesokakkodu1"
+            android:layout_alignStart="@+id/caddesokakkodu1" />
+
+        <com.rey.material.widget.CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Küme"
+            android:onClick="onTikla"
+            android:id="@+id/caddesokakkodu5"
+            android:layout_alignBottom="@+id/caddesokakkodu4"
+            android:layout_centerHorizontal="true" />
+
+        <com.rey.material.widget.CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="D. Yol"
+            android:onClick="onTikla"
+            android:id="@+id/caddesokakkodu6"
+            android:layout_alignBottom="@+id/caddesokakkodu5"
+            android:layout_alignLeft="@+id/caddesokakkodu3"
+            android:layout_alignStart="@+id/caddesokakkodu3" />
+    </RelativeLayout>
+    </ScrollView>
+</FrameLayout>

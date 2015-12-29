@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Caps</string>
+    <string name="hello_world">Merhaba Dünya!</string>
+    <string name="action_settings">Ayarlar</string>
+    <string name="baslik"><u>CAPS</u></string>
+    <string name="hint_text">Metni Girin</string>
+    <string name="uygula">Resme Yaz</string>
+    <string name="yazirengi">Yazı Rengi</string>
+    <string name="kuturengi">Kutu Rengi</string>
+    <string name="kutuboyutu">Kutu Boyutu</string>
+    <string name="yazikonum">Yazı Konumu</string>
+    <string name="yaziboyut">Yazi Boyutu</string>
+    <string name="toast">Fotoğraf Kaydedildi</string>
+    <string name="kaydet">Kaydediliyor...</string>
+    <string name="galeri">Galeriyi Aç</string>
+</resources>

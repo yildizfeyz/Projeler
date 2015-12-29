@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.feyzullah.frsatyakala.SohbetActivity">
+
+    <item android:id="@+id/sohbet_spinner"
+        app:showAsAction="ifRoom|withText"
+        app:actionViewClass="android.widget.Spinner" />
+
+</menu>

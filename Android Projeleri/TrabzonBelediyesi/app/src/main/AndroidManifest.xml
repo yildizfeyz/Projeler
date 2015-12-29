@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.feyzullah.trabzonbelediyesi.trabzonbelediyesi_binayeriyol" >
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/gislabicon"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Bina"
+            android:label="@string/title_activity_bina"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".Bina_tercih"
+            android:label="@string/title_activity_bina_tercih"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".Bina_Kayitlar"
+            android:label="@string/title_activity_bina__kayitlar"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".Bina_ResimGalerisi"
+            android:label="@string/title_activity_bina__resim_galerisi" >
+        </activity>
+        <activity
+            android:name=".Isyeri"
+            android:label="@string/title_activity_isyeri"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity
+            android:name=".Isyeri_tercih"
+            android:label="@string/title_activity_isyeri_tercih"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity
+            android:name=".Isyeri_Kayitlar"
+            android:label="@string/title_activity_isyeri__kayitlar"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity
+            android:name=".Isyeri_ResimGalerisi"
+            android:label="@string/title_activity_isyeri__resim_galerisi"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity
+            android:name=".Yol"
+            android:label="@string/title_activity_yol"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity
+            android:name=".Yol_Kayitlar"
+            android:label="@string/title_activity_yol__kayitlar"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity
+            android:name=".Yol_tercih"
+            android:label="@string/title_activity_yol_tercih"
+            android:screenOrientation="landscape">
+        </activity>
+    </application>
+
+</manifest>

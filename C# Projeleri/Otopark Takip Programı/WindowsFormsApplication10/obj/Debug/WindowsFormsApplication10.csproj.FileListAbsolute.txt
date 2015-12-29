@@ -1,0 +1,16 @@
+c:\users\feyzullah\documents\visual studio 2012\Projects\WindowsFormsApplication10\WindowsFormsApplication10\bin\Debug\WindowsFormsApplication10.exe.config
+c:\users\feyzullah\documents\visual studio 2012\Projects\WindowsFormsApplication10\WindowsFormsApplication10\bin\Debug\WindowsFormsApplication10.exe
+c:\users\feyzullah\documents\visual studio 2012\Projects\WindowsFormsApplication10\WindowsFormsApplication10\bin\Debug\WindowsFormsApplication10.pdb
+c:\users\feyzullah\documents\visual studio 2012\Projects\WindowsFormsApplication10\WindowsFormsApplication10\obj\Debug\WindowsFormsApplication10.csprojResolveAssemblyReference.cache
+c:\users\feyzullah\documents\visual studio 2012\Projects\WindowsFormsApplication10\WindowsFormsApplication10\obj\Debug\WindowsFormsApplication10.Form1.resources
+c:\users\feyzullah\documents\visual studio 2012\Projects\WindowsFormsApplication10\WindowsFormsApplication10\obj\Debug\WindowsFormsApplication10.Form2.resources
+c:\users\feyzullah\documents\visual studio 2012\Projects\WindowsFormsApplication10\WindowsFormsApplication10\obj\Debug\WindowsFormsApplication10.Form3.resources
+c:\users\feyzullah\documents\visual studio 2012\Projects\WindowsFormsApplication10\WindowsFormsApplication10\obj\Debug\WindowsFormsApplication10.Properties.Resources.resources
+c:\users\feyzullah\documents\visual studio 2012\Projects\WindowsFormsApplication10\WindowsFormsApplication10\obj\Debug\WindowsFormsApplication10.csproj.GenerateResource.Cache
+c:\users\feyzullah\documents\visual studio 2012\Projects\WindowsFormsApplication10\WindowsFormsApplication10\obj\Debug\WindowsFormsApplication10.exe
+c:\users\feyzullah\documents\visual studio 2012\Projects\WindowsFormsApplication10\WindowsFormsApplication10\obj\Debug\WindowsFormsApplication10.pdb
+c:\users\feyzullah\documents\visual studio 2012\Projects\WindowsFormsApplication10\WindowsFormsApplication10\obj\Debug\WindowsFormsApplication10.Form4.resources
+c:\users\feyzullah\documents\visual studio 2012\Projects\WindowsFormsApplication10\WindowsFormsApplication10\obj\Debug\WindowsFormsApplication10.Form5.resources
+c:\users\feyzullah\documents\visual studio 2012\Projects\WindowsFormsApplication10\WindowsFormsApplication10\obj\Debug\WindowsFormsApplication10.Form6.resources
+c:\users\feyzullah\documents\visual studio 2012\Projects\WindowsFormsApplication10\WindowsFormsApplication10\obj\Debug\WindowsFormsApplication10.Form7.resources
+c:\users\feyzullah\documents\visual studio 2012\Projects\WindowsFormsApplication10\WindowsFormsApplication10\obj\Debug\WindowsFormsApplication10.Form8.resources

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/listview_layout"
+    android:layout_width="match_parent"
+    android:background="@drawable/background"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:gravity="left"
+            android:id="@+id/listview_sil"
+            android:text="Bu gönderiyi sil" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:id="@+id/listview_zaman"
+        android:text="13.12.2015 19:08" />
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:scaleType="fitXY"
+            android:id="@+id/listview_profil"
+            android:layout_marginRight="5dp"
+            android:src="@drawable/action_icon" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/listview_gonderen"
+            android:text="Gönderen"
+            android:textStyle="bold"
+            android:textColor="#0000ff" />
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/listview_textview1"
+        android:text="Başlık"
+        android:textColor="#000000" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/listview_aciklama"
+        android:layout_marginTop="4dp"
+        android:text="Açıklama"
+
+        android:textColor="#000000"/>
+
+    <com.beardedhen.androidbootstrap.BootstrapButton
+        app:bootstrapBrand="primary"
+        app:bootstrapSize="lg"
+        app:buttonMode="regular"
+        app:showOutline="false"
+        app:roundedCorners="true"
+        android:id="@+id/listview_btn_git"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp"
+        android:padding="12dp"
+        android:text="GİT >"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:maxHeight="150dp"
+        android:id="@+id/listview_imageview"
+        android:src="@drawable/icon" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/listview_begeniyorum"
+        android:layout_marginTop="4dp"
+        android:text="0 Beğenme, 0 Yorum"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_marginTop="4dp"
+        android:layout_height="match_parent">
+
+        <com.beardedhen.androidbootstrap.BootstrapButton
+            app:bootstrapBrand="primary"
+            app:bootstrapSize="lg"
+            app:buttonMode="regular"
+            app:showOutline="true"
+            app:roundedCorners="true"
+            android:layout_weight="0.5"
+            android:text="Beğen"
+            android:layout_width="0dp"
+            android:scaleType="fitCenter"
+            android:layout_height="wrap_content"
+            android:id="@+id/listview_btn_begen" />
+
+
+        <com.beardedhen.androidbootstrap.BootstrapButton
+            app:bootstrapBrand="primary"
+            app:bootstrapSize="lg"
+            app:buttonMode="regular"
+            app:showOutline="true"
+            app:roundedCorners="true"
+            android:layout_weight="0.5"
+            android:text="Yorum Yap"
+            android:layout_width="0dp"
+            android:scaleType="fitCenter"
+            android:layout_height="wrap_content"
+            android:id="@+id/listview_btn_yorum" />
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

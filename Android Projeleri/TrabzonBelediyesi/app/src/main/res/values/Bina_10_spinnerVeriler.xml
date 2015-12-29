@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="Bina_10_spinnerVeriler">
+        <item >1-Konut</item>
+        <item >2-Özel İşyeri</item>
+        <item >3-Kamu İşyeri</item>
+        <item >4-İnşaat</item>
+        <item >5-Arsa</item>
+        <item >6-Diğer</item>
+    </string-array>
+
+</resources>

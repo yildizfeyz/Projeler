@@ -1,0 +1,71 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.feyzullah.trabzonbelediyesi.trabzonbelediyesi_binayeriyol.Yol_2">
+
+    <ScrollView
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent" android:layout_height="match_parent">
+
+            <TextView
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Kaplama Türü"
+                android:textColor="#FA5"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:id="@+id/textView8"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true" />
+
+
+            <RadioGroup
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+
+                android:id="@+id/kaplama_radiogroup"
+                android:layout_height="wrap_content">
+                <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Asfalt"
+
+                android:layout_gravity="left"
+                android:id="@+id/kaplamaturu1"/>
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+
+                    android:text="Beton"
+                    android:id="@+id/kaplamaturu2"/>
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Toprak"
+
+                    android:layout_gravity="left"
+                    android:id="@+id/kaplamaturu3"/>
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+
+                    android:text="Şose"
+                    android:id="@+id/kaplamaturu4"/>
+
+
+            </RadioGroup>
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

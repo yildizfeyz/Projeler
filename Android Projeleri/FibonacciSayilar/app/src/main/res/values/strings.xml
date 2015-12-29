@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">Fibonacci Sayılar</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_info">Info</string>
+    <string name="info"> Fibonacci Sayı Dizisi Nedir? \n \n
+
+Her sayının kendisinden önce gelen iki sayının toplamı şeklinde yazılıp devam ettiği sayı dizisine Fibonacci Sayı Dizisi denir. \n
+
+1,1,2,3,5,8,13,21,34,55, 89, 144, 233, 377, 610, 987, 1597, 2584, 4181, 6765, 10946, … \n
+
+Örnek: 1,1,  1+1= 2,   1+2=3,  2+3=5,  3+5=8,  5+8=13,  8+13=21 …\n
+
+Ünlü matematikçi Leonardo Fibonacci bir problemi araştırırken bulduğu diziye kendi adını vermiştir.\n
+
+
+
+Tavşan Problemi\n
+“Dört yanı duvarlarla çevrili bir yere bir çift tavşan konmuştur. Her çift tavşanın bir ay içinde yeni bir çift tavşan yavruladığı, her yeni çiftin de erginleşmesi için bir ay gerektiği ve tavşanların ölmediği varsayılırsa, 100 ay sonunda dört duvarın arasında kaç çift tavşan olur?” Bu şekilde düşünüldüğü takdirde tavşan çiftleri aylara göre şu sıralamayı ortaya koymaktadır: 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89,\n
+
+Fibonacci sayı dizisinin bu kadar popüler olmasının en önemli nedenleri  doğada çokça rastlanması ve dizinin terimlerini kendinden sonraki terime bölünmesi sonucu elde edilen oranların giderek Altın Oran‘a yaklaşması.\n
+
+Fibonacci Sayı Dizisi nerelerde kullanılır?\n
+
+Fibonacci Sayı Dizisinin Görüldüğü ve Kullanıldığı Yerler:\n
+
+1) Ayçiçeği: Ayçiçeği’nin merkezinden dışarıya doğru sağdan sola ve soldan sağa doğru taneler sayıldığında çıkan sayılar Fibonacci Dizisinin ardışık terimleridir.\n
+
+2) Papatya Çiçeği: Papatya Çiçeğinde de ayçiçeğinde olduğu gibi bir Fibonacci Dizisi mevcuttur.\n
+
+3) Fibonacci Dizisinin Fark Dizisi: Fibonacci Dizisindeki ardışık terimlerin farkıyla oluşan dizi de Fibonacci Dizisidir.\n
+
+4) Ömer Hayyam veya Pascal veya Binom Üçgeni: Ömer Hayyam üçgenindeki tüm katsayılar veya terimler yazılıp çapraz toplamları alındığında Fibonacci Dizisi ortaya çıkar.\n
+
+5) Tavşan: Zaten sorumuz tavşanla alakalı…\n
+
+6) Çam Kozalağı: Çam kozalağındaki taneler kozalağın altındaki sabit bir noktadan kozalağın tepesindeki başka bir sabit noktaya doğru spiraller (eğriler) oluşturarak çıkarlar. İşte bu taneler soldan sağa ve sağdan sola sayıldığında çıkan sayılar, Fibonacci Dizisi’nin ardışık terimleridir.\n
+
+7) Tütün Bitkisi: Tütün Bitkisinin yapraklarının dizilişinde bir Fibonacci Dizisi söz konusudur; yani yaprakların diziliminde bu dizi mevcuttur. Bundan dolayı tütün bitkisi Güneş’ten en iyi şekilde güneş ışığı ve havadan en iyi şekilde Karbondioksit alarak Fotosentez’i mükemmel bir şekilde gerçekleştirir.\n
+
+8 ) Eğrelti Otu: Tütün Bitkisindeki aynı özellik Eğrelti Otu’nda da vardır.\n
+
+9) MİMAR SİNAN: Mimar Sinan’ın da bir çok eserinde Fibonacci Dizisi görülmektedir. Mesela Süleymaniye ve Selimiye Camileri’nin minarelerinde bu dizi mevcuttur.\n
+
+Fibonacci Sayı Dizisi ve Altın Oran arasındaki ilişki\n
+
+Fibonacci Sayıları  ile Altın Oran arasında ilginç bir iliski vardir. Fibonacci sayı dizideki ardışık iki sayının bir birine bölünmesiyle elde edilen oran, sayılar büyüdükçe Altın Oran’a yaklaşır. Dizi ilerledikçe iki terim’in arasındaki oran 1,618′e yaklaşır.\n
+
+\n
+Fibonacci Kimdir? Fibonacci’nin Hayatı hakkında Bigiler\n\n
+
+Leonardo Fibonacci, orta çağın en yetenekli matematikçisi olarak kabul edilen İtalyan matematikçidir.\n
+
+Fibonacci modern çağda en fazla Hint-Arap Sayılarını Avrupa’ya getirmesiyle ve 13. yüzyıl başlarında yayınlanan Liber Abaci isimli hesaplama yöntemleri kitabıyla tanınır. Liber Abaci’de bir örnek olarak yer alan modern sayılarla hesaplanmış kendi adıyla anılan sayı dizisi Fibonacci Dizisi olarak anılmaktadır. Sadece Fibonacci dizisi ve özellikleri ile ilgili kitaplar hatta haftalık düzenli yayınlanan matematik dergileri bile bulunmaktadır.\n
+
+
+
+
+
+Leonardo 1170 yılında İtalya’nın Pisa şehrinde doğdu. Kesin doğum tarihi bilinmemektedir. Babası Guglielmo’dur.Takma adı Bonaccio idi ve bu ad, iyi tabiatlıveya sade ruhlu anlamına gelmekteydi. Annesi Alessandra,Leonardo 9 yaşındayken öldü. Leonardo babasının takma adını miras olarak aldı. İtalyancaFilius Bonacci, Bonacci’nin oğlu anlamına gelmekteydi ve Leonardo bu nedenle Fibonacci diye anılmaya başlandı.\n
+
+Babası Guglielmo Cezayir’in Béjaïa limanı ile İtalya’nın Bugia kenti arasında bir ticaret postasını idare etmekteydi. Genç bir çocuk olan Leonardo babasına yardım etmek için onunla seyahat ederdi. Burası Leonardo’nun Hint-Arap sayı sistemini öğrendiği yerdir.\n
+
+Fibonacci Hint-Arap sayıları ile aritmetik işlemler yapmanın Roma rakamları ile hesap yapmaktan çok daha basit ve verimli olduğunu gördü. Leonardo bütün Akdeniz bölgesini gezdi ve dönemin önde gelen Arap matematikçiler ile çalışma olanağı buldu. Leonardo yaklaşık olarak 1200 yıllarında bu seyahatinden döndü. 1202 yılına gelindiğinde 32 yaşında, öğrendiklerini “abaküs kitabı” veya”hesaplama kitabı” anlamına gelen Liber Abaci isimli eserinde topladı. Yayınladığı bu eserinde Hint-Arap Sayı Sistemi’ni Avrupa’ya duyurdu.\n
+
+Leonardo matematik ve bilim ile ilgilenmeyi seven Roma İmparatoru II. Frederick ile dost oldu. 1240 senesinde Pisa cumhuriyeti kendisini Leonardo Bigollo namıyla taltif edip onurlandı ve maaş bağlandı. 19. yüzyılda Pisa’da Fibonacci heykeli yapılmış ve buraya dikilmiştir. Heykel bugün Camposanto’nun batı galerisinde ve Piazza dei Miracoli tarihi mezarlığında bulunmaktadır.  </string>
+</resources>

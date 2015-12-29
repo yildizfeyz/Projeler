@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Caps</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="baslik"><u>CAPS</u></string>
+    <string name="hint_text">Enter Text</string>
+    <string name="uygula">Writing on the Photo</string>
+    <string name="yazirengi">Text Color</string>
+    <string name="kuturengi">Box Color</string>
+    <string name="kutuboyutu">Box Size</string>
+    <string name="yazikonum">Text Location</string>
+    <string name="yaziboyut">Text Size</string>
+    <string name="toast">Photo Saved</string>
+    <string name="kaydet">Saving...</string>
+    <string name="galeri">Open Gallery</string>
+
+</resources>

@@ -1,0 +1,79 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:background="#FF5722"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:background="#FF5722"
+            android:inputType="number"
+            android:hint="Eleman Sayısı"
+            android:layout_height="wrap_content"
+            android:id="@+id/elemansayisi" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="wrap_content"
+            android:background="#FF4722"
+            android:textColor="#ffffff"
+            android:text="Dizi Üret"
+            android:id="@+id/diziuret" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#004722"
+        android:text=""
+        android:id="@+id/textView" />
+
+
+
+    <com.astuetz.PagerSlidingTabStrip
+        android:id="@+id/tabs3"
+        app:pstsShouldExpand="true"
+        android:background="@drawable/btn_yellow"
+        android:textColor="#000000"
+        app:pstsDividerColor="#ffffff"
+        app:pstsIndicatorColor="#ff0000"
+        app:pstsUnderlineColor="#000000"
+
+        app:pstsTabPaddingLeftRight="20dp"
+        app:pstsTextAllCaps="true"
+        android:layout_width="match_parent"
+        android:layout_height="48dp" />
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#CCFFCC"
+        android:id="@+id/horizontalScrollView" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#CCFFCC"
+            android:textColor="#000000"
+            android:text="Üretilen Dizi: "
+            android:textSize="20dp"
+            android:id="@+id/uretilendizi" />
+    </HorizontalScrollView>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager3"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"/>
+
+</LinearLayout>

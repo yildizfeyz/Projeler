@@ -1,0 +1,65 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:gravity="center"
+    android:background="@drawable/giris_back"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".GirisEkrani">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:textSize="40dp"
+        android:text="Lügat Bilgi Oyunu"
+        android:layout_weight="0.25 "/>
+    <Button android:text="BAŞLA!"  android:background="@drawable/btn_blue" style="@style/ButtonText" android:onClick="onBasla" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="#55f5652f"
+        android:gravity="center_vertical"
+        android:textStyle="bold"
+
+        android:textColor="#ffffff"
+        android:text=" Toplam Kelime Sayısı: 11.000"
+        android:layout_weight="0.1 "/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="#555f5ff5"
+        android:id="@+id/cevaplanan"
+        android:textStyle="bold"
+        android:gravity="center_vertical"
+        android:text=" Cevapladığınız Soru Sayısı: 0"
+        android:layout_weight="0.1 "/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="#5500ff00"
+        android:gravity="center_vertical"
+        android:textStyle="bold"
+        android:id="@+id/dogrucevap"
+        android:text=" Doğru Cevap Sayısı: 0"
+        android:layout_weight="0.1 "/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="#55ff0000"
+        android:gravity="center_vertical"
+        android:textStyle="bold"
+        android:id="@+id/yanliscevap"
+        android:text=" Yanlış Cevap Sayısı: 0"
+        android:layout_weight="0.1 "/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="#55852350"
+        android:textStyle="bold"
+        android:id="@+id/toplamsure"
+        android:gravity="center_vertical"
+        android:text=" Toplam Harcanan Süre: 0:0:0"
+        android:layout_weight="0.1 "/>
+</LinearLayout>

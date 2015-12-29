@@ -1,0 +1,106 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.feyzullah.trabzonbelediyesi.trabzonbelediyesi_binayeriyol.Bina_6">
+
+    <ScrollView
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView" >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/yapi_sistemi"
+            android:textColor="#FA5"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:id="@+id/textView12"
+            android:layout_gravity="center_horizontal" />
+<RadioGroup
+    android:id="@+id/bina6_radiogroup1"
+    android:layout_width="wrap_content"
+    android:layout_gravity="center"
+    android:layout_height="wrap_content">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Beton"
+            android:id="@+id/yapisistemi1"
+            android:layout_gravity="center_horizontal" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Çelik"
+            android:id="@+id/yapisistemi2"
+            android:layout_gravity="left" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ahşap"
+            android:id="@+id/yapisistemi3"
+            android:layout_gravity="left" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Yığma"
+            android:id="@+id/yapisistemi4"
+            android:layout_gravity="left" />
+</RadioGroup>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_marginTop="50dp"
+            android:text="@string/kullanilan_malzeme"
+            android:textColor="#FA5"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:id="@+id/textView13"
+            android:layout_gravity="center_horizontal" />
+<RadioGroup
+    android:id="@+id/bina6_radiogroup2"
+    android:layout_width="wrap_content"
+    android:layout_gravity="center"
+    android:layout_height="wrap_content">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Briket"
+            android:id="@+id/kullanilanmalzeme1"
+            android:layout_gravity="left" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tuğla"
+            android:id="@+id/kullanilanmalzeme2"
+            android:layout_gravity="left" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ahşap"
+            android:id="@+id/kullanilanmalzeme3"
+            android:layout_gravity="left" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gazbeton"
+            android:id="@+id/kullanilanmalzeme4"
+            android:layout_gravity="left" />
+</RadioGroup>
+    </LinearLayout>
+</ScrollView>
+</FrameLayout>

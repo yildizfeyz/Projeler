@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Fırsat Yakala</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_yorum">YorumActivity</string>
+    <string name="title_activity_ayarlar">AyarlarActivity</string>
+    <string name="title_activity_yeni_paylasim">YeniPaylasimActivity</string>
+    <string name="title_activity_yeni_yorum">YeniYorumActivity</string>
+    <string name="title_activity_resim_galerisi">ResimGalerisi</string>
+    <string name="title_activity_paylastiklarim">PaylastiklarimActivity</string>
+    <string name="title_activity_sohbet">SohbetActivity</string>
+</resources>

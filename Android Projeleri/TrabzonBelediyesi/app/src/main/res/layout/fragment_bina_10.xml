@@ -1,0 +1,70 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.feyzullah.trabzonbelediyesi.trabzonbelediyesi_binayeriyol.Bina_10">
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_weight="0.2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/ickapino"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="İç Kapı No" />
+
+            </android.support.design.widget.TextInputLayout>
+
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_weight="0.4"
+                android:layout_width="0dp"
+                android:id="@+id/geocode"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/nitelik"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Nitelik" />
+
+            </android.support.design.widget.TextInputLayout>
+
+
+            <Spinner
+                android:layout_weight="0.4"
+                android:layout_width="0dp"
+
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:id="@+id/nitelikkodu_spinner" />
+        </LinearLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Ekle"
+            android:id="@+id/Bina_10btn" />
+
+        <ListView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/Bina_10listview" />
+    </LinearLayout>
+
+</FrameLayout>

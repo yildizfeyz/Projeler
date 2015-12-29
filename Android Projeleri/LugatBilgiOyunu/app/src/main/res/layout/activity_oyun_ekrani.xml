@@ -1,0 +1,112 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+        android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:background="@drawable/oyun_back"
+        tools:context="com.feyzullah.lugatbilgioyunu.lgatbilgioyunu.OyunEkrani">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="180dp"
+                android:alpha="0.5"
+                android:background="#cccccc"
+                android:layout_marginBottom="30dp">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="Soru 1"
+                        android:id="@+id/kelime_sira" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="right"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="Süre"
+                        android:id="@+id/kelime_sure" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="#000000"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text=""
+                    android:id="@+id/textView3" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Soru"
+                    android:id="@+id/kelime_soru" />
+            </LinearLayout>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/scrollView" >
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/btn_yellow"
+                        android:layout_marginBottom="10dp"
+                        android:onClick="kelime_secenek1"
+                        android:text="Seçenek 1"
+                        android:id="@+id/kelime_secenek1" />
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/btn_yellow"
+                        android:layout_marginBottom="10dp"
+                        android:onClick="kelime_secenek2"
+                        android:text="Seçenek 2"
+                        android:id="@+id/kelime_secenek2" />
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/btn_yellow"
+                        android:layout_marginBottom="10dp"
+                        android:onClick="kelime_secenek3"
+                        android:text="Seçenek 3"
+                        android:id="@+id/kelime_secenek3" />
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/btn_yellow"
+                        android:onClick="kelime_secenek4"
+                        android:text="Seçenek 4"
+                        android:id="@+id/kelime_secenek4"
+                        android:layout_marginBottom="30dp" />
+
+
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+    </RelativeLayout>
+

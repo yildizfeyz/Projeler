@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#cccccc"
+    xmlns:bootstrapbutton="http://schemas.android.com/apk/res-auto"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.feyzullah.frsatyakala.MainActivity">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginRight="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.beardedhen.androidbootstrap.BootstrapEditText
+            android:id="@+id/text_paylas"
+            android:layout_weight="0.8"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:cursorVisible="false"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:hint="Etrafında Ne Var!"
+            android:gravity="center"
+            />
+
+        <ImageView
+            android:id="@+id/image_profilebtn"
+            android:src="@drawable/profile"
+            android:layout_weight="0.1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:id="@+id/image_chatbtn"
+            android:src="@drawable/chat"
+            android:layout_weight="0.1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+    <ListView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/listview"
+        android:divider="#cccccc"
+        android:dividerHeight="20dp"
+        android:id="@+id/listView" />
+
+
+</LinearLayout>

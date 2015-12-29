@@ -1,0 +1,95 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.feyzullah.trabzonbelediyesi.trabzonbelediyesi_binayeriyol.Yol_1">
+
+    <ScrollView
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView" >
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Yol Kod"
+                android:id="@+id/textView"
+                android:textColor="#FA5"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true" />
+
+            <EditText
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:id="@+id/yolkod"
+                android:gravity="center"
+                android:layout_below="@+id/textView"
+                android:layout_centerHorizontal="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Genişlik"
+                android:id="@+id/textView2"
+                android:textColor="#FA5"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_below="@id/yolkod"
+                android:layout_alignLeft="@id/yolkod"
+                android:layout_alignStart="@id/yolkod"
+                android:layout_marginTop="56dp"
+                android:layout_alignRight="@id/yolkod"
+                android:layout_alignEnd="@id/yolkod" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/genislik"
+                android:layout_below="@id/textView2"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Ad"
+                android:id="@+id/textView3"
+                android:textColor="#FA5"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_below="@id/genislik"
+                android:layout_alignLeft="@id/genislik"
+                android:layout_alignStart="@id/genislik"
+                android:layout_marginTop="56dp"
+                android:layout_alignRight="@id/genislik"
+                android:layout_alignEnd="@id/genislik" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ad"
+                android:layout_below="@id/textView3"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+        </RelativeLayout>
+    </ScrollView>
+</FrameLayout>

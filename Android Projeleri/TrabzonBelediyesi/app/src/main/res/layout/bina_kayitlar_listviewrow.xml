@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+    android:id="@+id/kayitgor_layout"
+    android:background="@color/white"
+    android:layout_height="match_parent">
+
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+
+
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="190dp"
+                android:textSize="20dp"
+                android:layout_height="wrap_content"
+                android:text="|Kullanılan Malzeme"
+                android:textColor="@color/white"
+                android:id="@+id/Bina_kayitgor_id" />
+            <TextView
+                android:layout_width="190dp"
+                android:textSize="20dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text=""
+                android:id="@+id/Bina_kayitgor_geocode" />
+            <TextView
+                android:layout_width="190dp"
+                android:textSize="20dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text=""
+                android:id="@+id/Bina_kayitgor_mahalleadi" />
+            <TextView
+                android:layout_width="190dp"
+                android:textSize="20dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text=""
+                android:id="@+id/Bina_kayitgor_caddesokakadi" />
+            <TextView
+                android:layout_width="190dp"
+                android:textSize="20dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text=""
+                android:id="@+id/Bina_kayitgor_caddesokakkodu" />
+            <TextView
+                android:layout_width="190dp"
+                android:textSize="20dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text=""
+                android:id="@+id/Bina_kayitgor_kapino" />
+            <TextView
+                android:layout_width="190dp"
+                android:textSize="20dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text=""
+                android:id="@+id/Bina_kayitgor_siteadi" />
+            <TextView
+                android:layout_width="190dp"
+                android:textSize="20dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text=""
+                android:id="@+id/Bina_kayitgor_apartmanadi" />
+            <TextView
+                android:layout_width="190dp"
+                android:textSize="20dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text=""
+                android:id="@+id/Bina_kayitgor_halihazirdurum" />
+            <TextView
+                android:layout_width="190dp"
+                android:textSize="20dp"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="@color/white"
+                android:id="@+id/Bina_kayitgor_discephedurumu" />
+            <TextView
+                android:layout_width="190dp"
+                android:textSize="20dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text=""
+                android:id="@+id/Bina_kayitgor_yapidurumu" />
+            <TextView
+                android:layout_width="190dp"
+                android:textSize="20dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text=""
+                android:id="@+id/Bina_kayitgor_catidurumu" />
+            <TextView
+                android:layout_width="190dp"
+                android:textSize="20dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text=""
+                android:id="@+id/Bina_kayitgor_yapisistemi" />
+            <TextView
+                android:layout_width="190dp"
+                android:textSize="20dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text=""
+                android:id="@+id/Bina_kayitgor_kullanilanmalzeme" />
+            <TextView
+                android:layout_width="190dp"
+                android:textSize="20dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text=""
+                android:id="@+id/Bina_kayitgor_ortakkullanim" />
+            <TextView
+                android:layout_width="190dp"
+                android:textSize="20dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text=""
+                android:id="@+id/Bina_kayitgor_digerbilgiler" />
+            <TextView
+                android:layout_width="190dp"
+                android:textSize="20dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text=""
+                android:id="@+id/Bina_kayitgor_binasorumlusu" />
+            <TextView
+                android:layout_width="190dp"
+                android:textSize="20dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text=""
+                android:id="@+id/Bina_kayitgor_sorumlutel" />
+            <TextView
+                android:layout_width="190dp"
+                android:textSize="20dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text=""
+                android:id="@+id/Bina_kayitgor_kullanimamaci" />
+            <TextView
+                android:layout_width="190dp"
+                android:textSize="20dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text=""
+                android:id="@+id/Bina_kayitgor_gelismislik" />
+            <TextView
+                android:layout_width="190dp"
+                android:textSize="20dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text=""
+                android:id="@+id/Bina_kayitgor_ickapino" />
+            <TextView
+                android:layout_width="190dp"
+                android:textSize="20dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text=""
+                android:id="@+id/Bina_kayitgor_nitelik" />
+            <TextView
+                android:layout_width="190dp"
+                android:textSize="20dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text=""
+                android:id="@+id/Bina_kayitgor_nitelikkodu" />
+            <TextView
+                android:layout_width="190dp"
+                android:textSize="20dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text=""
+                android:id="@+id/Bina_kayitgor_baskamahalleadi" />
+            <TextView
+                android:layout_width="190dp"
+                android:textSize="20dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text=""
+                android:id="@+id/Bina_kayitgor_baskakapino" />
+            <TextView
+                android:layout_width="190dp"
+                android:textSize="20dp"
+                android:textColor="@color/white"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:id="@+id/Bina_kayitgor_baskadusunceler" />
+            <TextView
+                android:layout_width="190dp"
+                android:textSize="20dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text=""
+                android:id="@+id/Bina_kayitgor_notlar" />
+
+
+        </LinearLayout>
+
+</RelativeLayout>

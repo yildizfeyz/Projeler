@@ -1,0 +1,110 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.feyzullah.trabzonbelediyesi.trabzonbelediyesi_binayeriyol.Bina_4">
+
+    <ScrollView
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView" >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent" android:layout_height="match_parent">
+
+        <TextView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/bina_halihazir_durumu"
+            android:id="@+id/textView8"
+            android:textColor="#FA5"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+
+<RadioGroup
+    android:layout_gravity="center"
+    android:layout_width="wrap_content"
+
+    android:id="@+id/radiogroup1"
+    android:layout_height="wrap_content">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Var"
+
+            android:layout_gravity="left"
+            android:id="@+id/halihazirdurum1"
+             />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+
+            android:text="Yok"
+            android:id="@+id/halihazirdurum2"
+             />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Değişmemiş"
+
+            android:layout_gravity="left"
+            android:id="@+id/halihazirdurum3"
+            />
+</RadioGroup>
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/dis_cephe_durumu"
+            android:textColor="#FA5"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:id="@+id/textView9"
+             />
+<RadioGroup
+    android:layout_width="wrap_content"
+    android:layout_gravity="center"
+    android:id="@+id/discephedurum_radiogroup"
+    android:layout_height="wrap_content">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sıvalı"
+            android:id="@+id/discephe_durumu1"
+            android:layout_gravity="left" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sıvasız"
+            android:id="@+id/discephe_durumu2"
+            android:layout_gravity="left" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Boyalı"
+            android:id="@+id/discephe_durumu3"
+            android:layout_gravity="left" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Boyasız"
+            android:id="@+id/discephe_durumu4"
+            android:layout_gravity="left" />
+</RadioGroup>
+    </LinearLayout>
+</ScrollView>
+</FrameLayout>

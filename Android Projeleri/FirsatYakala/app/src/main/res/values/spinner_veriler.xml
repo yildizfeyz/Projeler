@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spinnerVeriler">
+        <item >Eğlence</item>
+        <item >İndirim</item>
+        <item >Konferans</item>
+        <item >Oyun</item>
+        <item >İmza Günü</item>
+        <item >Tartışma</item>
+        <item >Mağaza</item>
+        <item >Park</item>
+        <item >Plaj</item>
+        <item >Manzara</item>
+        <item >Miting</item>
+        <item >Olay</item>
+        <item >Sinema</item>
+    </string-array>
+
+    <string-array name="action_spinnerVeriler">
+        <item >Herşey</item>
+        <item >100km</item>
+        <item >50km</item>
+        <item >10km</item>
+        <item >5km</item>
+    </string-array>
+
+    <string-array name="sohbet_spinnerVeriler">
+        <item >Üyeler</item>
+        <item >Herkes</item>
+    </string-array>
+
+</resources>

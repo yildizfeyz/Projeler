@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="Bina_1_spinnerVeriler">
+        <item >YEŞİLTEPE MAHALLESİ</item>
+        <item >BOZCAALİ MAHALLESİ</item>
+        <item >TEPEBAŞI MAHALLESİ</item>
+        <item >MUNLUCA MAHALLESİ</item>
+        <item >AYDINLIKEVLER MAHALLESİ</item>
+        <item >SOĞUKSU MAHALLESİ</item>
+        <item >HAYDARLI MAHALLESİ</item>
+        <item >KABA MAHALLESİ</item>
+        <item >ÇEŞMEBAŞI MAHALLESİ</item>
+        <item >HENDEK MAHALLESİ</item>
+        <item >1. BEŞİRLİ MAHALLESİ</item>
+        <item >2. BEŞİRLİ MAHALLESİ</item>
+        <item >1. BOSTANCI MAHALLESİ</item>
+        <item >2. BOSTANCI MAHALLESİ</item>
+        <item >1. ERDOĞDU MAHALLESİ</item>
+        <item >2. ERDOĞDU MAHALLESİ</item>
+        <item >3. ERDOĞDU MAHALLESİ</item>
+        <item >ADNANKAHVECİ MAHALLESİ</item>
+        <item >AKOLUK MAHALLESİ</item>
+        <item >ARMUTLU MAHALLESİ</item>
+        <item >AŞAĞI MAHALLESİ</item>
+        <item >BAHÇECİK MAHALLESİ</item>
+        <item >BAŞKURT MAHALLESİ</item>
+        <item >BOZTEPE MAHALLESİ</item>
+        <item >CAMİ MAHALLESİ</item>
+        <item >CUMHURİYET MAHALLESİ</item>
+        <item >ÇAKILCA MAHALLESİ</item>
+        <item >ÇAMLICA MAHALLESİ</item>
+        <item >ÇARŞI MAHALLESİ</item>
+        <item >ÇÖMLEKÇİ MAHALLESİ</item>
+        <item >DEĞİRMEN MAHALLESİ</item>
+        <item >DERELİ MAHALLESİ</item>
+        <item >ERGÜNEŞ MAHALLESİ</item>
+        <item >ESENTEPE MAHALLESİ</item>
+        <item >FATİH MAHALLESİ</item>
+        <item >GAZİPAŞA MAHALLESİ</item>
+        <item >GÜLBAHARHATUN MAHALLESİ</item>
+        <item >GÜLYALI MAHALLESİ</item>
+        <item >GÜNEY MAHALLESİ</item>
+        <item >GÜZELYALI MAHALLESİ</item>
+        <item >HIZIRBEY MAHALLESİ</item>
+        <item >İNÖNÜ MAHALLESİ</item>
+        <item >İSKENDERPAŞA MAHALLESİ</item>
+        <item >KALKINMA MAHALLESİ</item>
+        <item >KANUNİ MAHALLESİ</item>
+        <item >KARŞIYAKA MAHALLESİ</item>
+        <item >KAYMAKLI MAHALLESİ</item>
+        <item >KEMERKAYA MAHALLESİ</item>
+        <item >KENDİRLİ MAHALLESİ</item>
+        <item >KONAK MAHALLESİ</item>
+        <item >KONAKLAR MAHALLESİ</item>
+        <item >KTÜ KAMPÜSÜ</item>
+        <item >KURTULUŞ MAHALLESİ</item>
+        <item >MERKEZ MAHALLESİ</item>
+        <item >MISIRLI MAHALLESİ</item>
+        <item >OKÇU MAHALLESİ</item>
+        <item >ORTAHİSAR MAHALLESİ</item>
+        <item >ÖZKAYMAKLI MAHALLESİ</item>
+        <item >PAZARKAPI MAHALLESİ</item>
+        <item >SANAYİ MAHALLESİ</item>
+        <item >SEYRANTEPE MAHALLESİ</item>
+        <item >SOFRAKAYA MAHALLESİ</item>
+        <item >TOKLU MAHALLESİ</item>
+        <item >YALI MAHALLESİ</item>
+        <item >YANLICA MAHALLESİ</item>
+        <item >YALINCAK MAHALLESİ</item>
+        <item >YENİ MAHALLESİ</item>
+        <item >YANYAMAÇ MAHALLESİ</item>
+        <item >YENİCUMA MAHALLESİ</item>
+        <item >YEŞİLKÖY MAHALLESİ</item>
+        <item >ZAFER MAHALLESİ</item>
+
+    </string-array>
+
+</resources>

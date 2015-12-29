@@ -1,0 +1,82 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.feyzullah.trabzonbelediyesi.trabzonbelediyesi_binayeriyol.Bina_3">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/scrollView" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/kapi_no"
+            android:textColor="#FA5"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:id="@+id/textView5"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <EditText
+            android:layout_width="100dp"
+            android:inputType="number"
+            android:layout_height="wrap_content"
+            android:id="@+id/kapino"
+            android:layout_marginBottom="20dp"
+            android:layout_below="@+id/textView5"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/site_adi"
+            android:textColor="#FA5"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:id="@+id/textView6"
+            android:layout_below="@+id/kapino"
+            android:layout_centerHorizontal="true" />
+
+        <EditText
+            android:layout_width="500dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/siteadi"
+
+            android:layout_below="@+id/textView6"
+            android:layout_marginBottom="20dp"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/apartman_blok_adi"
+            android:id="@+id/textView7"
+            android:textColor="#FA5"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/siteadi"
+            android:layout_centerHorizontal="true" />
+
+        <EditText
+            android:layout_width="500dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/apartmanadi"
+            android:layout_below="@+id/textView7"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</ScrollView>
+</FrameLayout>

@@ -1,0 +1,114 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.feyzullah.trabzonbelediyesi.trabzonbelediyesi_binayeriyol.Bina_9">
+
+
+    <ScrollView
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView" >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Bina Kullanım Amacı"
+            android:textColor="#FA5"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:id="@+id/textView12"
+            android:layout_gravity="center_horizontal" />
+<RadioGroup
+    android:id="@+id/bina9_radiogroup1"
+    android:layout_width="wrap_content"
+    android:layout_gravity="center"
+    android:layout_height="wrap_content">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Konut"
+            android:id="@+id/kullanimamaci1"
+            android:layout_gravity="left" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kamu"
+            android:id="@+id/kullanimamaci2"
+            android:layout_gravity="left" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sanayi"
+            android:id="@+id/kullanimamaci3"
+            android:layout_gravity="left" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ticari"
+            android:id="@+id/kullanimamaci4"
+            android:layout_gravity="left" />
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tüzel"
+        android:id="@+id/kullanimamaci5"
+        android:layout_gravity="left" />
+</RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_marginTop="50dp"
+            android:text="Gelişmişlik Durumu"
+            android:textColor="#FA5"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:id="@+id/textView13"
+            android:layout_gravity="center_horizontal" />
+<RadioGroup
+    android:id="@+id/bina9_radiogroup2"
+    android:layout_width="wrap_content"
+    android:layout_gravity="center"
+    android:layout_height="wrap_content">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Briket"
+            android:id="@+id/gelismislik1"
+            android:layout_gravity="left" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gelişmiş"
+            android:id="@+id/gelismislik2"
+            android:layout_gravity="left" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Orta Gelişmiş"
+            android:id="@+id/gelismislik3"
+            android:layout_gravity="left" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gelişmemiş"
+            android:id="@+id/gelismislik4"
+            android:layout_gravity="left" />
+</RadioGroup>
+    </LinearLayout>
+</ScrollView>
+</FrameLayout>

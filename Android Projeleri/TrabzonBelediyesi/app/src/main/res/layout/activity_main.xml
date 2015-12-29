@@ -1,0 +1,80 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.beardedhen.androidbootstrap.BootstrapButton
+                app:bootstrapBrand="primary"
+                app:bootstrapSize="lg"
+                app:buttonMode="regular"
+                app:showOutline="true"
+                app:roundedCorners="true"
+                android:layout_weight="0.3"
+                android:text="BİNA"
+                android:onClick="onBina"
+                android:layout_width="0dp"
+                android:scaleType="fitCenter"
+                android:layout_height="match_parent"
+                android:id="@+id/imageButton" />
+
+            <com.beardedhen.androidbootstrap.BootstrapButton
+                app:bootstrapBrand="primary"
+                app:bootstrapSize="lg"
+                app:buttonMode="regular"
+                app:showOutline="true"
+                app:roundedCorners="true"
+                android:layout_weight="0.3"
+                android:layout_width="0dp"
+                android:text="YOL"
+                android:onClick="onYol"
+                android:scaleType="fitXY"
+                android:layout_height="match_parent"
+                android:id="@+id/imageButton2" />
+
+            <com.beardedhen.androidbootstrap.BootstrapButton
+                app:bootstrapBrand="primary"
+                app:bootstrapSize="lg"
+                app:buttonMode="regular"
+                app:showOutline="true"
+                app:roundedCorners="true"
+                android:layout_weight="0.3"
+                android:text="İŞYERİ"
+                android:onClick="onIsyeri"
+                android:layout_width="0dp"
+                android:scaleType="fitCenter"
+                android:layout_height="match_parent"
+                android:id="@+id/imageButton3" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageButton
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:scaleType="fitXY"
+        android:background="@null"
+        android:onClick="onInfo"
+
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/info"
+        android:id="@+id/imageButton4" />
+
+
+</RelativeLayout>
